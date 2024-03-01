@@ -62,7 +62,7 @@
 	<meta charset="utf-8">
 	<title>
 		<%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %>
-		- LuCI</title>
+		</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 	<meta name="format-detection" content="telephone=no, email=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -73,8 +73,8 @@
 	<meta name="browsermode" content="application">
 	<meta name="msapplication-tap-highlight" content="no">
 	<meta name="msapplication-TileColor" content="<%=bar_color%>">
-	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
-	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
+	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> ">
+	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> ">
 	<link rel="icon" href="<%=media%>/icon/favicon.png">
 	<meta name="theme-color" content="<%=bar_color%>">
 	<link rel="stylesheet" href="<%=media%>/css/cascade.css<%# ?v=PKG_VERSION %>">
